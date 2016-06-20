@@ -1,0 +1,30 @@
+/* This is a CSS comment.*/
+body {
+	font-family: 'Allan', sans-serif;
+	background-color: khaki;
+	box-sizing: border-box;
+	color: darkcyan;
+	border-radius: 15px;
+}
+
+.header {
+	text-align: center;
+	background-color: cornflowerblue;
+	color: mediumblue;
+}
+
+.section_title {
+	color: orangered;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/

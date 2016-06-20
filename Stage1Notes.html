@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Robert Blackshaw's IPND Notes</title>
+		<link rel="stylesheet" href="P1Style.css">
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Allan:700' rel='stylesheet'>
+	</head>
+	<body>
+		<div class="header">
+			<h1 class="header">Lesson Notes</h1>
+			<h3 class="header">What I Have Learned</h3>
+		</div>
+		<hr />
+		<hr />
+		<div>
+			<b>Jump To...</b>
+			<ul style="list-style-type: none">
+				<li><a href="#stage0">Stage 0 Notes</a></li>
+				<li><a href="#stage1">Stage 1 Notes</a></li>
+			</ul>
+		</div>
+		<img class="displayed" src="linux.jpeg" alt="Whoops">
+		<div class="stage">
+			<h2 class="header" id="stage0"> Stage 0 Notes </h2>
+
+			<div class="section">
+				<h3 class="section_title">The Internet</h3>
+				<p>The internet is comprised of servers all over the world which are accessed by users of computers. The computers use internet browsers to find and view the files which are in the servers. In order to do this the computer and servers use HTTP, <b><em>Hypertext Transfer Protocol</em></b>. This ensures that the information is in a consistent format for easy transfer and understanding.
+				</p>
+			</div>	
+
+			<div class="section">
+				<h3 class="section_title">The Language of the Internet</h3>
+				<p>The basic file type that the internet is comprised of is HTML, or <b><em>Hypertext Markup Language</em></b>. This is the language and filetype that web pages are made of. Being a <em>markup</em> language, it uses tags. Tags surround the content you want to implement into your webpage, and each tag has a unique characteristic. You must nest your tags for them to work as you want. Not all tags must have an end tag though. Tags that use no content do not need an end tag, and are called void tags.
+				</p>
+			</div>
+
+			<div class="section">
+				<h3 class="section_title">Different Kinds of Elements</h3>
+				<p>So far, we have learned of two kinds of elements: <b>Inline</b> and <b>Block</b> elements. <b>Block</b> elements put everything in them into an invisible box. This box can have added features, like controlling the dimensions of the space it takes up. <b>Inline</b> elements on the other hand are independent fo the content around them.
+				</p>
+			</div>
+
+			<div class="section">
+				<h3 class="section_title">What I Have Enjoyed So Far</h3>
+				<p>So the very first lesson is taught by a co-founder of <a href="https://www.reddit.com">Reddit</a>, which to me is awesome considering I use that site literally everyday. The course has started out slow and simple, which makes sense considering it is an intro to programming nanodegree so Udacity has to cater to complete beginners. I enjoy the nanodegree thus far and am excited for the rest of it!
+				</p>
+			</div>
+		</div>
+
+		<hr />
+		<!--Just Practicing Comments, Don't Mind Me-->
+
+		<div class="stage">
+			<h2 class="header" id="stage1">Stage 1 Notes</h2>
+
+			<div class="section">
+				<h3 class="section_title">Development Tools</h3>
+				<p>In stage 1, we used Google Chrome's development tools to look at the source code of any website. These tools are very useful because they allow you to quickly access information about how a website is structered and styled. By right clicking an element on the website and <em>"inspecting"</em> it, the development tools will go directly to the corresponding <b>HTML</b>. There, you can make changes or simply examine the details of the element and everything that it is comprised of. 
+				</p>
+			</div>
+
+			<div class="section">
+				<h3 class="section_title">Everything Is Boxes</h3>
+				<p>Another big part of this stage is thinking about a web page as a bunch of boxes, usually with boxes inside of the bigger boxes. Every element is a box, even if it looks like a circle. This is so that it is easier to organize a web page and easier to break down a page into its basic elements visually. The tag we use to make these boxes is the <b>div</b> tag, which is a <b>Block</b> type element.
+				</p>
+			</div>
+
+			<div class="section">
+				<h3 class="section_title">Styles and CSS</h3>
+				<p>When there is an important element, it is usually accompanied by an attribute. One example we have been learning is to assign a <em>class</em> attribute, basically a label, so that we can easily reference everything of that class later on. We will be using CSS to style our web page, and can assign a style to a class. This makes styling very easy to do, and less tedious.
+				</p>
+			</div>
+
+			<div class="section">
+				<h3 class="section_title">Box Sizing and Positioning</h3>
+				<p>Every element in HTML is a box. One major function of using these boxes is being able to control their size and position.
+				</p>
+				<div class="subsection">
+					<blockquote>
+						<h4 class="section_title">Sizing</h4>
+						<p>When sizing, it can be tough to get it just how you want it. Some techniques for this are setting the sizes in percentages instead of in pixels, and to use the <em>box-sizing</em> attribute and set it to <em>border-box</em>. Another important variable to keep in mind is that different browsers can display the same code differently. In order to keep a consistent look throughout all browsers, you must use special prefixes with the attributes. The prefixes are unique for each browser. A couple examples are <em>web-kit</em> for safari, and <em>moz</em> for mozilla firefox. 
+						</p>
+						<h4 class="section_title">Positioning</h4>
+						<p><em>Div</em> elements are block elements, so they take up the entire width of the page. A cool trick to help with this potential problem is the rule <em>display: flex;</em>. This overrides the div element wanting to take the entire width of a page and lets divs appear next to each other.			
+						</p>
+					</blockquote>
+				</div>
+ 			</div>
+		</div>
+	</body>
+</html>
